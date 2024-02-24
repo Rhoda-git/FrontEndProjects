@@ -1,12 +1,12 @@
-import React from 'react';
-import './styles/App.css';
-import SignIn from './Components/signIn';
+import React from "react";
+import "./styles/App.css";
+import SignIn from "./pages/signIn";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <SignIn/>
+        <SignIn />
       </header>
     </div>
   );
